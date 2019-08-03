@@ -1,0 +1,90 @@
+:root {
+  --background-color-light: #e5edf9;
+  --text--color-light: #aac0f0;
+  --indigo-blue: #3b46c0;
+  --indigo-blue-dark: #2f389a;
+  --indigo-blue-darkest: #242d58;
+  --green-color: #788d81;
+  --text-color-dark: #4f5fa1;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0 3rem;
+  line-height: 1.7;
+  color: var(--indigo-blue-darkest);
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+nav {
+  padding: 1.3rem 0;
+}
+
+nav a {
+  font-size: 1.6rem;
+}
+
+.name {
+  font-size: 1.9rem;
+}
+
+main {
+  background-color: #e5edf98e;
+  height: 85vh;
+}
+
+.hero {
+  padding: 5rem 0 10rem 0;
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+  color: #242d58dc;
+}
+
+.hero h3 {
+  color: #788d81b0;
+}
+
+.project-section h2 {
+  margin-bottom: 4rem;
+  color: #242d58dc;
+}
+
+.footer {
+  padding: 1.7rem 0;
+}
+
+.footer-text {
+  font-size: 1.3rem;
+}
